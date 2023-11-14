@@ -29,7 +29,7 @@ model Rev15System_File "test of Rev15 system with file based inputs"
         extent={{10,-10},{-10,10}},
         rotation=90,
         origin={-54,36})));
-  replaceable ModelicaSeminar.Seminar06.EVThermal.Controllers.Controller_File controller(fileName = Modelica.Utilities.Files.loadResource("modelica://ModelicaSeminar/Resources/Data/Controls1_Scenario3.txt")) constrainedby
+  replaceable ModelicaSeminar.Seminar06.EVThermal.Controllers.Controller_File controller(fileName = Modelica.Utilities.Files.loadResource("modelica://ModelicaSeminar/Resources/Data/Controls1_Scenario1.txt")) constrainedby
     ModelicaSeminar.Seminar06.EVThermal.Interfaces.Controller
     annotation (Placement(transformation(extent={{104.0,-100.0},{64.0,-60.0}},rotation = 0.0,origin = {0.0,0.0})));
   ModelicaSeminar.Seminar06.EVThermal.ThermalComponents.PTCHeater_File PTCBattery(redeclare package Medium = Liquid,
@@ -37,7 +37,7 @@ model Rev15System_File "test of Rev15 system with file based inputs"
         extent={{-10,10},{10,-10}},
         rotation=90,
         origin={10,-10})));
-  ModelicaSeminar.Seminar06.EVThermal.Controllers.ScenarioController_File scenarioController_File(fileName = Modelica.Utilities.Files.loadResource("modelica://ModelicaSeminar/Resources/Data/Cooling1_Scenario3.txt"))
+  ModelicaSeminar.Seminar06.EVThermal.Controllers.ScenarioController_File scenarioController_File(fileName = Modelica.Utilities.Files.loadResource("modelica://ModelicaSeminar/Resources/Data/Cooling1_Scenario1.txt"))
     annotation (Placement(transformation(extent={{100,-20},{80,0}})));
   parameter .Modelon.Media.Units.Temperature T_start = 298.15
     "Initial temperature";

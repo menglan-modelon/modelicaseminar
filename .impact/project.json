@@ -1,0 +1,82 @@
+{
+  "name": "Modelicaseminar",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "AirConditioning",
+      "versionSpecifier": "1.26.0+build.48"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.11.0+build.30"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "HeatExchanger",
+      "versionSpecifier": "2.11.0+build.18"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "ModelicaSeminar",
+      "contentType": "MODELICA",
+      "name": "ModelicaSeminar",
+      "defaultDisabled": false,
+      "id": "b3c8fb496fc0466b889af1cdecd821e3"
+    },
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "a033b7c1df044241b0df8a650184f3e8"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "54980b1a1e9b4a64b336bd6aa43f4247"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "9f1a81c5355c42629bda13c7c829d847"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "18488dfb987c4c829edd510f007e93b1"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "1fce5f1b08d045439c6d6f73027aaeac"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "c69ce56fb67b4fc99449437541f66c76"
+    },
+    {
+      "relpath": "Notebooks",
+      "contentType": "GENERIC",
+      "defaultDisabled": true,
+      "id": "c89d7cf6cc354ce5818c7248cefcd1ed"
+    }
+  ],
+  "executionOptions": []
+}

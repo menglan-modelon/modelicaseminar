@@ -1,0 +1,21 @@
+{
+  "stickies" : [ "T_start", "PTCBattery.size_factor_battery.k" ],
+  "stickyPositions" : [ {
+    "component" : "PTCBattery",
+    "x" : -24.946737,
+    "y" : 14.018949
+  } ],
+  "plots" : [ {
+    "variables" : [ "battery.volume.volume.T" ],
+    "colors" : {
+      "battery.volume.volume.T" : [ "#d62728" ]
+    },
+    "x" : -41.137047,
+    "y" : 150.08847,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1"
+  } ],
+  "version" : "1",
+  "name" : "winterCharge"
+}

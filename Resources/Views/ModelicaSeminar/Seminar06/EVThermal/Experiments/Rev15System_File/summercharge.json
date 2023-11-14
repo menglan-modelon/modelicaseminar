@@ -1,0 +1,21 @@
+{
+  "stickies" : [ "T_start", "chiller.size_factor_chiller.k" ],
+  "stickyPositions" : [ {
+    "component" : "chiller",
+    "x" : -42.884003,
+    "y" : -30.22758
+  } ],
+  "plots" : [ {
+    "variables" : [ "battery.volume.summary.T" ],
+    "colors" : {
+      "battery.volume.summary.T" : [ "#1f77b4" ]
+    },
+    "x" : 50.097088,
+    "y" : 98.14675,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1"
+  } ],
+  "version" : "1",
+  "name" : "summerCharge"
+}

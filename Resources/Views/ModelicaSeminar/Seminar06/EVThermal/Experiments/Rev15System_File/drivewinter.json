@@ -1,0 +1,35 @@
+{
+  "stickies" : [ "PTCCabin.size_factor_cabin.k", "T_start" ],
+  "stickyPositions" : [ {
+    "component" : "chiller",
+    "x" : -42.884003,
+    "y" : -30.22758
+  }, {
+    "component" : "PTCCabin",
+    "x" : 15.156841,
+    "y" : 5.894948
+  } ],
+  "plots" : [ {
+    "variables" : [ "battery.volume.summary.T" ],
+    "colors" : {
+      "battery.volume.summary.T" : [ "#ff7f0e" ]
+    },
+    "x" : -45.157463,
+    "y" : 129.37482,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 1"
+  }, {
+    "variables" : [ "cabin.volume.summary.T" ],
+    "colors" : {
+      "cabin.volume.summary.T" : [ "#2ca02c" ]
+    },
+    "x" : -136.39009,
+    "y" : 91.026184,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Plot 2"
+  } ],
+  "version" : "1",
+  "name" : "driveWinter"
+}
