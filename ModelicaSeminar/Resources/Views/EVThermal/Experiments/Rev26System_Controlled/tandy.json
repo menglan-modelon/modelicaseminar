@@ -1,0 +1,38 @@
+{
+  "stickies": [],
+  "stickyPositions": [],
+  "plots": [
+    {
+      "variables": [
+        "pTCHeater_Controlled.limPID.y"
+      ],
+      "colors": {
+        "pTCHeater_Controlled.limPID.y": [
+          "#1f77b4"
+        ]
+      },
+      "x": -85.32109,
+      "y": 54.52142,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 1"
+    },
+    {
+      "variables": [
+        "temperatureSensor.y"
+      ],
+      "colors": {
+        "temperatureSensor.y": [
+          "#ff7f0e"
+        ]
+      },
+      "x": -89.72335,
+      "y": 121.81309,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 2"
+    }
+  ],
+  "version": "1",
+  "name": "Tandy"
+}

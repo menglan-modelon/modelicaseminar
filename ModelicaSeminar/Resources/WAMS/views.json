@@ -1,0 +1,157 @@
+{
+  "version" : "1",
+  "models" : [ {
+    "name" : "EVThermal.Experiments.Rev23System_Controlled",
+    "views" : [ {
+      "name" : "Tandy",
+      "stickies" : [ ],
+      "stickyPositions" : [ ],
+      "plots" : [ {
+        "variables" : [ "pTCHeater_Controlled.limPID.y" ],
+        "colors" : {
+          "pTCHeater_Controlled.limPID.y" : [ "#1f77b4" ]
+        },
+        "x" : -85.32109,
+        "y" : 54.52142,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 1"
+      }, {
+        "variables" : [ "temperatureSensor.y" ],
+        "colors" : {
+          "temperatureSensor.y" : [ "#ff7f0e" ]
+        },
+        "x" : -89.72335,
+        "y" : 121.81309,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 2"
+      } ]
+    } ]
+  }, {
+    "name" : "EVThermal.Experiments.Rev26System_Controlled",
+    "views" : [ {
+      "name" : "Tandy",
+      "stickies" : [ ],
+      "stickyPositions" : [ ],
+      "plots" : [ {
+        "variables" : [ "pTCHeater_Controlled.limPID.y" ],
+        "colors" : {
+          "pTCHeater_Controlled.limPID.y" : [ "#1f77b4" ]
+        },
+        "x" : -85.32109,
+        "y" : 54.52142,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 1"
+      }, {
+        "variables" : [ "temperatureSensor.y" ],
+        "colors" : {
+          "temperatureSensor.y" : [ "#ff7f0e" ]
+        },
+        "x" : -89.72335,
+        "y" : 121.81309,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 2"
+      } ]
+    } ]
+  }, {
+    "name" : "EVThermal.ThermalComponents.ComponentTests.OilCoolingMotor_Test",
+    "views" : [ {
+      "name" : "HX Temperatures",
+      "stickies" : [ ],
+      "stickyPositions" : [ ],
+      "plots" : [ {
+        "variables" : [ "motor_Oil_cooling.heatExchanger.summary.T_in", "motor_Oil_cooling.heatExchanger.summary.T_out", "motor_Oil_cooling.heatExchanger.summary.T_sec_in", "motor_Oil_cooling.heatExchanger.summary.T_sec_out" ],
+        "colors" : {
+          "motor_Oil_cooling.heatExchanger.summary.T_in" : [ "#1f77b4" ],
+          "motor_Oil_cooling.heatExchanger.summary.T_out" : [ "#ff7f0e" ],
+          "motor_Oil_cooling.heatExchanger.summary.T_sec_in" : [ "#2ca02c" ],
+          "motor_Oil_cooling.heatExchanger.summary.T_sec_out" : [ "#d62728" ]
+        },
+        "x" : -98.439125,
+        "y" : 68.10614,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 1"
+      } ]
+    } ]
+  }, {
+    "name" : "EVThermal.Experiments.Rev26System_Cont_MotorOil",
+    "views" : [ {
+      "name" : "Tandy",
+      "stickies" : [ ],
+      "stickyPositions" : [ ],
+      "plots" : [ {
+        "variables" : [ "pTCHeater_Controlled.limPID.y" ],
+        "colors" : {
+          "pTCHeater_Controlled.limPID.y" : [ "#1f77b4" ]
+        },
+        "x" : -85.32109,
+        "y" : 54.52142,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 1"
+      }, {
+        "variables" : [ "temperatureSensor.y" ],
+        "colors" : {
+          "temperatureSensor.y" : [ "#ff7f0e" ]
+        },
+        "x" : -89.72335,
+        "y" : 121.81309,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 2"
+      } ]
+    } ]
+  }, {
+    "name" : "EVThermal.Experiments.Rev26SystemRefLoop_Controlled",
+    "views" : [ {
+      "name" : "Tandy",
+      "stickies" : [ ],
+      "stickyPositions" : [ ],
+      "plots" : [ {
+        "variables" : [ "pTCHeater_Controlled.limPID.y" ],
+        "colors" : {
+          "pTCHeater_Controlled.limPID.y" : [ "#1f77b4" ]
+        },
+        "x" : -85.32109,
+        "y" : 54.52142,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 1"
+      }, {
+        "variables" : [ "temperatureSensor.y" ],
+        "colors" : {
+          "temperatureSensor.y" : [ "#ff7f0e" ]
+        },
+        "x" : -89.72335,
+        "y" : 121.81309,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 2"
+      } ]
+    } ]
+  }, {
+    "name" : "EVThermal.Experiments.Rev15System_File",
+    "views" : [ {
+      "name" : "Temperatures",
+      "stickies" : [ ],
+      "stickyPositions" : [ ],
+      "plots" : [ {
+        "variables" : [ "cabin.volume.summary.T", "battery.volume.summary.T", "motor.volume.summary.T" ],
+        "colors" : {
+          "cabin.volume.summary.T" : [ "#ff7f0e" ],
+          "battery.volume.summary.T" : [ "#2ca02c" ],
+          "motor.volume.summary.T" : [ "#d62728" ]
+        },
+        "x" : -233.50995,
+        "y" : 96.15916,
+        "width" : 500.0,
+        "height" : 300.0,
+        "title" : "Plot 1"
+      } ]
+    } ]
+  } ]
+}

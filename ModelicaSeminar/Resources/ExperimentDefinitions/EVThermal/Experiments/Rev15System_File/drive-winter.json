@@ -1,0 +1,51 @@
+{
+  "version": "1",
+  "id": "90d788cca1594521af7238b12df700bc",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 3600.0
+            },
+            "simulationOptions": {
+              "solver": "CVode"
+            },
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          },
+          {
+            "type": "steady state",
+            "parameters": {},
+            "simulationOptions": {},
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "T_start",
+            "expression": "273.15"
+          },
+          {
+            "name": "PTCCabin.size_factor_cabin.k",
+            "expression": "range(1,51,6)"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-11-01T08:20:49.661Z",
+    "lastModified": "2023-11-01T08:20:49.661Z",
+    "name": "Drive_Winter"
+  }
+}

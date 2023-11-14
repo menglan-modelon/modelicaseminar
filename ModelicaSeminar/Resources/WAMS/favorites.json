@@ -1,0 +1,27 @@
+{
+  "version" : "2",
+  "data" : {
+    "EVThermal.Interfaces.rev_23.Blackbox_brb4sb3r" : { },
+    "EVThermal.Subsystems.ElevenPort_TwoPump_250_430" : { },
+    "EVThermal.Controllers.ParControl_rev23Test" : { },
+    "EVThermal.Interfaces.PTCHeater_Controlled" : { },
+    "EVThermal.Experiments.Rev23System_Controlled" : { },
+    "EVThermal.ThermalComponents.PTCHeater_Controlled" : { },
+    "EVThermal.Components.Valves.DiverterValve" : { },
+    "EVThermal.Components.Valves.TwoWayValve_ThreePort" : { },
+    "EVThermal.Interfaces.EightPort_4s_4r_1" : { },
+    "EVThermal.Interfaces.TenPort" : { },
+    "EVThermal.Components.Valves.DistributionValve3" : { },
+    "EVThermal.Components.Valves.ThreeWayValve_FourPort" : { },
+    "EVThermal.Controllers.MotorOil" : { },
+    "EVThermal.Experiments.Rev26System_Controlled" : { },
+    "EVThermal.Controllers.BatteryHeat_File" : { },
+    "EVThermal.Controllers.RefrigerantSystem.System" : { },
+    "EVThermal.Subsystems.UnitTests.CabinAndBatteryRefrigerantCoolantSystem_1" : { },
+    "EVThermal.Experiments.Rev15System_File" : {
+      "gasFlowBoundary.X" : true
+    },
+    "EVThermal.ThermalComponents.PTCHeater_File" : { },
+    "EVThermal.ThermalComponents.Chiller_File" : { }
+  }
+}

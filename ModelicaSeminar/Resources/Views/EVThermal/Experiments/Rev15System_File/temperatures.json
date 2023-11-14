@@ -1,0 +1,31 @@
+{
+  "stickies": [],
+  "stickyPositions": [],
+  "plots": [
+    {
+      "variables": [
+        "cabin.volume.summary.T",
+        "battery.volume.summary.T",
+        "motor.volume.summary.T"
+      ],
+      "colors": {
+        "cabin.volume.summary.T": [
+          "#ff7f0e"
+        ],
+        "battery.volume.summary.T": [
+          "#2ca02c"
+        ],
+        "motor.volume.summary.T": [
+          "#d62728"
+        ]
+      },
+      "x": -233.50995,
+      "y": 96.15916,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 1"
+    }
+  ],
+  "version": "1",
+  "name": "Temperatures"
+}

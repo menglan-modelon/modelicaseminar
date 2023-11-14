@@ -1,0 +1,29 @@
+{
+  "stickies" : [ "PTCCabin.size_factor_cabin.k" ],
+  "stickyPositions" : [ {
+    "component" : "PTCBattery",
+    "x" : 124.51422,
+    "y" : 49.311237
+  }, {
+    "component" : "chiller",
+    "x" : -93.4646,
+    "y" : -78.6466
+  }, {
+    "component" : "PTCCabin",
+    "x" : 143.37439,
+    "y" : 24.261621
+  } ],
+  "plots" : [ {
+    "variables" : [ "cabin.volume.summary.T" ],
+    "colors" : {
+      "cabin.volume.summary.T" : [ "#9467bd" ]
+    },
+    "x" : -192.08679,
+    "y" : 179.50092,
+    "width" : 500.0,
+    "height" : 300.0,
+    "title" : "Cabin temperature"
+  } ],
+  "version" : "1",
+  "name" : "Scenario 2"
+}

@@ -1,0 +1,51 @@
+{
+  "version": "1",
+  "id": "0ac9601de49f4dbc84505205bb348000",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 36000.0
+            },
+            "simulationOptions": {
+              "solver": "CVode"
+            },
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          },
+          {
+            "type": "steady state",
+            "parameters": {},
+            "simulationOptions": {},
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "T_start",
+            "expression": "303.15"
+          },
+          {
+            "name": "chiller.size_factor_chiller.k",
+            "expression": "range(1,21,10)"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-10-31T06:31:55.374Z",
+    "lastModified": "2023-10-31T06:31:55.374Z",
+    "name": "Charging_Summer"
+  }
+}

@@ -1,0 +1,44 @@
+#1
+double pump_RPM(4,2)   # comment line
+  0   3000
+  600 3000
+  620 1500
+  1e6 1500
+
+double pump1_RPM(2,2)   # comment line
+  0   10
+  1e6 10
+  
+double DV1_main(2,2)   # comment line
+  0   1
+  1e6 1
+  
+double DV2_main(2,2)   # comment line
+  0   1
+  1e6 1  
+  
+double DV3_main(2,2)   # comment line
+  0   1
+  1e6 1
+  
+double DV4_main(4,2)   # comment line
+  0   1
+  600 1
+  620 1
+  1e6 1
+  
+double PV1_opening(2,2)   # comment line
+  0   0.1
+  1e6 0.1
+  
+double PV2_opening(2,2)   # comment line
+  0   0.1
+  1e6 0.1
+  
+double PV3_opening(2,2)   # comment line
+  0   1
+  1e6 1
+
+double PV4_opening(2,2)   # comment line
+  0   0.1
+  1e6 0.1  

@@ -1,0 +1,287 @@
+{
+  "EVThermal.Experiments.Rev23System_File" : [ {
+    "created" : "2023-04-20T01:29:16.073Z",
+    "lastModified" : "2023-04-20T01:29:16.073Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Experiments.Rev23System_File",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Experiments.Rev23System_Controlled" : [ {
+    "created" : "2023-04-20T01:29:16.073Z",
+    "lastModified" : "2023-04-20T01:29:16.073Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Experiments.Rev23System_Controlled",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Experiments.Rev26System_Controlled" : [ {
+    "created" : "2023-04-20T01:29:16.073Z",
+    "lastModified" : "2023-04-20T01:29:16.073Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Experiments.Rev26System_Controlled",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "text",
+      "value" : "*summary.*"
+    }, {
+      "type" : "text",
+      "value" : "*multiDisplay*"
+    } ],
+    "isDefault" : true
+  } ],
+  "EVThermal.ThermalComponents.ComponentTests.PTCHeater_Test" : [ {
+    "created" : "2023-04-21T06:14:18.110Z",
+    "lastModified" : "2023-04-21T06:14:18.110Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.ThermalComponents.ComponentTests.PTCHeater_Test",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "EVThermal.ThermalComponents.ComponentTests.OilCoolingMotor_Test" : [ {
+    "created" : "2023-04-21T06:14:18.110Z",
+    "lastModified" : "2023-04-21T06:14:18.110Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.ThermalComponents.ComponentTests.OilCoolingMotor_Test",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Experiments.Rev26System_Cont_MotorOil" : [ {
+    "created" : "2023-04-20T01:29:16.073Z",
+    "lastModified" : "2023-04-20T01:29:16.073Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Experiments.Rev26System_Cont_MotorOil",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "text",
+      "value" : "*summary.*"
+    }, {
+      "type" : "text",
+      "value" : "*multiDisplay*"
+    } ],
+    "isDefault" : true
+  } ],
+  "EVThermal.ThermalComponents.ComponentTests.Battery_Test" : [ {
+    "created" : "2023-04-21T06:14:18.110Z",
+    "lastModified" : "2023-04-21T06:14:18.110Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.ThermalComponents.ComponentTests.Battery_Test",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Experiments.Rev26SystemRefLoop_Controlled" : [ {
+    "created" : "2023-04-20T01:29:16.073Z",
+    "lastModified" : "2023-04-20T01:29:16.073Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Experiments.Rev26SystemRefLoop_Controlled",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "text",
+      "value" : "*summary.*"
+    }, {
+      "type" : "text",
+      "value" : "*multiDisplay*"
+    } ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Subsystems.UnitTests.RefrigerantSystem_EvaporatorChiller" : [ {
+    "created" : "2023-05-30T06:14:42.813Z",
+    "lastModified" : "2023-05-30T06:14:42.813Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Subsystems.UnitTests.RefrigerantSystem_EvaporatorChiller",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 3900.0,
+        "tolerance" : 1.0E-7,
+        "solver" : "CVode"
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "text",
+      "value" : "summary"
+    } ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Subsystems.UnitTests.RefSys_EvapChiller_BCbothSides" : [ {
+    "created" : "2023-05-30T06:14:42.813Z",
+    "lastModified" : "2023-05-30T06:14:42.813Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Subsystems.UnitTests.RefSys_EvapChiller_BCbothSides",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 3900.0,
+        "tolerance" : 1.0E-7,
+        "solver" : "CVode"
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "text",
+      "value" : "*.summary.*"
+    } ],
+    "isDefault" : true
+  } ],
+  "EVThermal.Experiments.Rev15System_File" : [ {
+    "created" : "2023-10-31T01:31:33.542Z",
+    "lastModified" : "2023-10-31T01:31:33.542Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "EVThermal.Experiments.Rev15System_File",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1000.0,
+        "solver" : "CVode"
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  }, {
+    "created" : "2023-10-31T06:31:55.374Z",
+    "lastModified" : "2023-10-31T06:31:55.374Z",
+    "name" : "Charging_Summer",
+    "expressions" : [ {
+      "name" : "T_start",
+      "expression" : "303.15"
+    }, {
+      "name" : "chiller.size_factor_chiller.k",
+      "expression" : "range(1,21,10)"
+    } ],
+    "model" : "EVThermal.Experiments.Rev15System_File",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 36000.0,
+        "solver" : "CVode"
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  }, {
+    "created" : "2023-11-01T08:20:49.661Z",
+    "lastModified" : "2023-11-01T08:20:49.661Z",
+    "name" : "Drive_Winter",
+    "expressions" : [ {
+      "name" : "T_start",
+      "expression" : "273.15"
+    }, {
+      "name" : "PTCCabin.size_factor_cabin.k",
+      "expression" : "range(1,51,6)"
+    } ],
+    "model" : "EVThermal.Experiments.Rev15System_File",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 3600.0,
+        "solver" : "CVode"
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  }, {
+    "created" : "2023-11-06T05:14:13.014Z",
+    "lastModified" : "2023-11-06T05:14:13.014Z",
+    "name" : "Charging_Winter",
+    "expressions" : [ {
+      "name" : "T_start",
+      "expression" : "273.15"
+    }, {
+      "name" : "PTCBattery.size_factor_battery.k",
+      "expression" : "range(0.1,0.9,9)"
+    } ],
+    "model" : "EVThermal.Experiments.Rev15System_File",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 36000.0,
+        "solver" : "CVode"
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  } ]
+}

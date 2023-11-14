@@ -1,0 +1,44 @@
+#1
+double Q_PTC_battery(2,2)   # comment line
+  0   4000
+  1e6 4000
+
+double Q_PTC_cabin(2,2)   # comment line
+  0   0
+  1e6 0
+  
+double Q_cabin(2,2)   # comment line
+  0   0
+  1e6 0
+  
+double Q_charger(2,2)   # comment line
+  0   870
+  1e6 870
+  
+double Q_DCDCconverter(2,2)   # comment line
+  0   35
+  1e6 35
+  
+double Q_inverter(2,2)   # comment line
+  0   0
+  1e6 0 
+  
+double Q_motor(2,2)   # comment line
+  0   0
+  1e6 0 
+  
+double Q_chiller(2,2)   # comment line
+  0   0
+  1e6 0 
+  
+double Q_battery(2,2)   # comment line
+  0   12
+  1e6 12 
+  
+double mdot_rad(2,2)   # comment line
+  0   0.1
+  1e6 0.1 
+
+double T_rad_degC(2,2)   # comment line
+  0   0
+  1e6 0   
